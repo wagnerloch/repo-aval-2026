@@ -17,7 +17,10 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 **Nome da equipe:**
 
 | Nome | Usuário do GitHub |
-| ---- | ----------------- |
+| Eduardo Perleberg Heckler | eduardosenac25 |
+| Gabriel Priebe Bonow      | gabrielpb293   |  
+|Miguel Dos Santos Da Silva |Miguel-DosSantos|
+
 
 ## Sumário
 
