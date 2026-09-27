@@ -14,10 +14,14 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 > Preenchida pela equipe na [TAREFA-01](TAREFAS.md#tarefa-01--integrantes-da-equipe).
 
-**Nome da equipe:**
+**Nome da equipe: Equipe Rocket**
 
-| Nome | Usuário do GitHub |
-| ---- | ----------------- |
+|            Nome             | Usuário do GitHub |
+| --------------------------- | ----------------- |
+| hope borba                  | hopeborba-glitch  |
+| Roberto Nunes Ferreira      | RobertoNunesF     |
+| Derek Formentin de Oliveira | derek-fo          |
+| luiz freitas                | luiz-tfreitas     |
 
 ## Sumário
 
@@ -53,7 +57,7 @@ npm start -- 6 8 9
 ```
 
 ```
-Média: 7.666666666666667
+Média: 7,7
 Situação: Aprovado
 ```
 
