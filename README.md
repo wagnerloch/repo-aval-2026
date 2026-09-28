@@ -14,10 +14,12 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 > Preenchida pela equipe na [TAREFA-01](TAREFAS.md#tarefa-01--integrantes-da-equipe).
 
-**Nome da equipe:**
+**Nome da equipe**: Média Masters 
 
 | Nome | Usuário do GitHub |
 | ---- | ----------------- |
+| Estevan Monteiro | @EstevanMonteiro00 |
+| Lucas Silva | @Lucasslva08  |
 
 ## Sumário
 
@@ -38,7 +40,8 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 | Média                 | Situação    |
 | --------------------- | ----------- |
-| maior ou igual a 7,0  | Aprovado    |
+| maior ou igual a 9,0  | Aprovado com distinção |
+| de 7,0 a menos de 9,0 | Aprovado    |
 | de 5,0 a menos de 7,0 | Recuperação |
 | menor que 5,0         | Reprovado   |
 
@@ -53,7 +56,7 @@ npm start -- 6 8 9
 ```
 
 ```
-Média: 7.666666666666667
+Média: 7,7
 Situação: Aprovado
 ```
 

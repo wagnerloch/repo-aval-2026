@@ -1,4 +1,10 @@
-import { MEDIA_APROVACAO, MEDIA_RECUPERACAO, NOTA_MAXIMA, NOTA_MINIMA } from './config.js';
+import {
+  MEDIA_APROVACAO,
+  MEDIA_DISTINCAO,
+  MEDIA_RECUPERACAO,
+  NOTA_MAXIMA,
+  NOTA_MINIMA
+} from './config.js';
 
 /**
  * Indica se o valor é uma nota válida: um número entre NOTA_MINIMA e NOTA_MAXIMA.
@@ -21,13 +27,16 @@ export function calcularMedia(notas) {
     throw new Error('Informe ao menos uma nota.');
   }
 
-  let soma = 0;
-  for (let i = 0; i < notas.length; i++) {
-    if (!ehNotaValida(notas[i])) {
-      throw new Error(`Nota inválida: ${notas[i]}. Use valores entre ${NOTA_MINIMA} e ${NOTA_MAXIMA}.`);
-    }
-    soma = soma + notas[i];
+  const indiceNotaInvalida = notas.findIndex((nota) => !ehNotaValida(nota));
+
+  if (indiceNotaInvalida !== -1) {
+    const nota = notas[indiceNotaInvalida];
+    throw new Error(
+      `Nota inválida: ${nota}. Use valores entre ${NOTA_MINIMA} e ${NOTA_MAXIMA}.`
+    );
   }
+
+  const soma = notas.reduce((total, nota) => total + nota, 0);
 
   return soma / notas.length;
 }
@@ -36,10 +45,14 @@ export function calcularMedia(notas) {
  * Retorna a situação do aluno de acordo com a média.
  *
  * @param {number} media
- * @returns {string} "Aprovado", "Recuperação" ou "Reprovado"
+ * @returns {string}
  */
 export function obterSituacao(media) {
-  if (media > MEDIA_APROVACAO) {
+  if (media >= MEDIA_DISTINCAO) {
+    return 'Aprovado com distinção';
+  }
+
+  if (media >= MEDIA_APROVACAO) {
     return 'Aprovado';
   }
 
@@ -48,4 +61,14 @@ export function obterSituacao(media) {
   }
 
   return 'Reprovado';
+}
+
+/**
+ * Formata a média com uma casa decimal e vírgula como separador decimal.
+ *
+ * @param {number} media
+ * @returns {string}
+ */
+export function formatarMedia(media) {
+  return media.toFixed(1).replace('.', ',');
 }
