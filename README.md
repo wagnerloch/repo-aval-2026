@@ -14,10 +14,11 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 > Preenchida pela equipe na [TAREFA-01](TAREFAS.md#tarefa-01--integrantes-da-equipe).
 
-**Nome da equipe:**
+**Lol gamers**
 
 | Nome | Usuário do GitHub |
-| ---- | ----------------- |
+| Lucas Acosta | Lucas-Progbyte |
+| Igor Henrique | igorzim31 |
 
 ## Sumário
 
