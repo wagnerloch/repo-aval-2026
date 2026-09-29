@@ -14,10 +14,14 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 > Preenchida pela equipe na [TAREFA-01](TAREFAS.md#tarefa-01--integrantes-da-equipe).
 
-**Nome da equipe:**
+**Nome da equipe: Programa Dores**
 
+**Nome da equipe: Programa Dores**
 | Nome | Usuário do GitHub |
-| ---- | ----------------- |
+|---|---|
+| Lucas Donini | Lucas-Donini |
+| João Lessa | Lessajp2007 |
+| Victor Arndt | VictorArndt |
 
 ## Sumário
 
@@ -36,11 +40,12 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 ### Regras de avaliação
 
-| Média                 | Situação    |
-| --------------------- | ----------- |
-| maior ou igual a 7,0  | Aprovado    |
-| de 5,0 a menos de 7,0 | Recuperação |
-| menor que 5,0         | Reprovado   |
+| Média                 | Situação               |
+| --------------------- | -----------            |
+| maior ou igual a 9,0  | Aprovado com distinção |
+| maior ou igual a 7,0  | Aprovado               |
+| de 5,0 a menos de 7,0 | Recuperação            |
+| menor que 5,0         | Reprovado              |
 
 As notas vão de 0 a 10. Os valores de corte ficam em [`src/config.js`](src/config.js).
 
