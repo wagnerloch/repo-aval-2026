@@ -14,10 +14,13 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 > Preenchida pela equipe na [TAREFA-01](TAREFAS.md#tarefa-01--integrantes-da-equipe).
 
-**Nome da equipe:**
+**Souza's Developers:**
 
-| Nome | Usuário do GitHub |
-| ---- | ----------------- |
+|         Nome             | Usuário do GitHub |
+| ------------------------ | ----------------- |
+| Alessandro Carvalho      |   Alessandroosc   |
+| Alexandre Souza Schroder | https://github.com/Aleqk1231 |
+| Gustavo Souza Schroder   | [Gapxz](https://github.com/Gapxz) |
 
 ## Sumário
 
@@ -36,11 +39,12 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 ### Regras de avaliação
 
-| Média                 | Situação    |
-| --------------------- | ----------- |
-| maior ou igual a 7,0  | Aprovado    |
-| de 5,0 a menos de 7,0 | Recuperação |
-| menor que 5,0         | Reprovado   |
+| Média                  | Situação                |
+| ---------------------- | ----------------------- |
+| maior ou igual a 9,0   | Aprovado com distinção  |
+| de 7,0 a menos de 9,0  | Aprovado                |
+| de 5,0 a menos de 7,0  | Recuperação             |
+| menor que 5,0          | Reprovado               |
 
 As notas vão de 0 a 10. Os valores de corte ficam em [`src/config.js`](src/config.js).
 
@@ -53,7 +57,7 @@ npm start -- 6 8 9
 ```
 
 ```
-Média: 7.666666666666667
+Média: 7,7
 Situação: Aprovado
 ```
 
