@@ -17,7 +17,9 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 **Nome da equipe:**
 
 | Nome | Usuário do GitHub |
-| ---- | ----------------- |
+| Luan Nicolas de Souza Schwartz | LuanSchwartz |
+
+| Luan Schwartz | LuanSchwartz |
 
 ## Sumário
 
@@ -53,7 +55,7 @@ npm start -- 6 8 9
 ```
 
 ```
-Média: 7.666666666666667
+Média: 7,7
 Situação: Aprovado
 ```
 
